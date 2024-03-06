@@ -530,9 +530,9 @@
                                             </div>
                                             <div class="card-body col-12">
                                                 <h5 class="card-title mx-3">
-                                                    {{-- <a href="#"
-                                                        class="fables-main-text-color fables-store-product-title fables-second-hover-color">اسم
-                                                        الخادمه </a> --}}
+                                                    <a href="#"
+                                                        class="fables-main-text-color fables-store-product-title fables-second-hover-color">
+                                                         </a>
                                                 </h5>
                                                 <p
                                                     class="card-text fables-fifth-text-color fables-store-product-details mx-3 store-card-text">
@@ -566,9 +566,9 @@
                                             </div>
                                             <div class="card-body col-12">
                                                 <h5 class="card-title mx-3">
-                                                    {{-- <a href="#"
+                                                    <a href="#"
                                                         class="fables-main-text-color fables-store-product-title fables-second-hover-color">
-                                                        اسم الخادمه</a> --}}
+                                                         </a>
                                                 </h5>
                                                 <p
                                                     class="card-text fables-fifth-text-color fables-store-product-details mx-3 store-card-text">
@@ -579,7 +579,7 @@
                                                 <p class="fables-product-info my-2"><a href="/contact"
                                                         class="btn fables-second-border-color fables-second-text-color fables-btn-rouned fables-hover-btn-color font-15">
                                                         </span>
-                                                        {{-- <span class="fables-btn-value">حجز</span></a></p> --}}
+                                                        <span class="fables-btn-value">حجز</span></a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -602,9 +602,9 @@
                                             </div>
                                             <div class="card-body col-12">
                                                 <h5 class="card-title mx-3">
-                                                    {{-- <a href="#"
-                                                        class="fables-main-text-color fables-store-product-title fables-second-hover-color">اسم
-                                                        الخادمه</a> --}}
+                                                    <a href="#"
+                                                        class="fables-main-text-color fables-store-product-title fables-second-hover-color">
+                                                        </a>
                                                 </h5>
                                                 <p
                                                     class="card-text fables-fifth-text-color fables-store-product-details mx-3 store-card-text">
@@ -615,7 +615,7 @@
                                                 <p class="fables-product-info"><a href="/contact"
                                                         class="btn fables-second-border-color fables-second-text-color fables-btn-rouned fables-hover-btn-color font-15">
                                                         </span>
-                                                        {{-- <span class="fables-btn-value">حجز</span></a></p> --}}
+                                                        <span class="fables-btn-value">حجز</span></a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -638,9 +638,9 @@
                                             </div>
                                             <div class="card-body col-12">
                                                 <h5 class="card-title mx-3">
-                                                    {{-- <a href="#"
-                                                        class="fables-main-text-color fables-store-product-title fables-second-hover-color">اسم
-                                                        الخادمه </a> --}}
+                                                    <a href="#"
+                                                        class="fables-main-text-color fables-store-product-title fables-second-hover-color">
+                                                         </a>
                                                 </h5>
                                                 <p
                                                     class="card-text fables-fifth-text-color fables-store-product-details mx-3 store-card-text">
@@ -651,7 +651,7 @@
                                                 <p class="fables-product-info my-2"><a href="/contact"
                                                         class="btn fables-second-border-color fables-second-text-color fables-btn-rouned fables-hover-btn-color font-15">
                                                         </span>
-                                                        {{-- <span class="fables-btn-value">حجز</span></a></p> --}}
+                                                        <span class="fables-btn-value">حجز</span></a></p>
                                             </div>
                                         </div>
                                     </div>
