@@ -88,7 +88,7 @@
                 </div>
                 <div class="col-12 col-sm-5 col-lg-3 text-right">
                     <p class="fables-third-text-color font-13"><span class="fables-iconemail"></span> Email:
-                        info@ingaz.sa.com</p>
+                        info@ingaz.sa</p>
                 </div>
 
             </div>

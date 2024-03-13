@@ -76,14 +76,16 @@
 <div class="fables-forth-background-color fables-top-header-signin">
     <div class="container">
         <div class="row" id="top-row">
-            
+
             <div class="col-12 col-sm-5 col-lg-4 text-right">
-                <p class="fables-third-text-color font-13"><span class="fables-iconphone"></span> Phone :  (888) 6000 6000 - (888) 6000 6000</p>
+                <p class="fables-third-text-color font-13"><span class="fables-iconphone"></span> Phone : 920002686
+                </p>
             </div>
             <div class="col-12 col-sm-5 col-lg-3 text-right">
-                <p class="fables-third-text-color font-13"><span class="fables-iconemail"></span> Email: admin@domain.com</p>
+                <p class="fables-third-text-color font-13"><span class="fables-iconemail"></span> Email:
+                    info@ingaz.sa</p>
             </div>
-            
+
         </div>
     </div>
 </div>
