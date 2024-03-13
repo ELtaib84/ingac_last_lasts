@@ -241,7 +241,8 @@
 <!-- Start Team -->
 <div class="container">
            <div class="fables-team overflow-hidden">
-                <h2 class="font-35 font-weight-bold text-center fables-main-text-color my-4 my-lg-5">الفريق</h2> 
+                <h2 class="font-35 font-weight-bold text-center fables-main-text-color my-4 my-lg-5">الخادمات
+                </h2> 
                 
                
          </div> 
