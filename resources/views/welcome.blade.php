@@ -81,7 +81,7 @@
                 <p class="fables-third-text-color font-13"><span class="fables-iconphone"></span> Phone :  (996) 6000 6000 - (888) 6000 6000</p>
             </div>
             <div class="col-12 col-sm-5 col-lg-3 text-right">
-                <p class="fables-third-text-color font-13"><span class="fables-iconemail"></span> Email: admin@domain.com</p>
+                <p class="fables-third-text-color font-13"><span class="fables-iconemail"></span> Email: info@ingaz.sa</p>
             </div>
             
         </div>
@@ -772,11 +772,11 @@
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-lg-4">
-                <h2 class="font-20 semi-font fables-second-border-color border-bottom pb-3 mb-3">EXPLORE OUR SITE</h2>
+                {{-- <h2 class="font-20 semi-font fables-second-border-color border-bottom pb-3 mb-3">EXPLORE OUR SITE</h2> --}}
                 <ul class="nav fables-footer-links">
                     <li><a href="about1.html">عننا</a></li>
-                    <li><a href="contactus1.html">التواصل معنا</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="/contact">التواصل معنا</a></li>
+                    {{-- <li><a href="gallery.html">Gallery</a></li> --}}
                     {{-- <li><a href="team.html">Team</a></li>
                     <li><a href="blog.html">Blog</a></li>
                     <li><a href="testimonials.html">Testimonials</a></li> --}}
