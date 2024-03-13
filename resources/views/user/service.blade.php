@@ -281,13 +281,13 @@
                                               </div>
                                               <div class="card-body col-12">
                                                 <h5 class="card-title mx-3">
-                                                    <a href="#" class="fables-main-text-color fables-store-product-title fables-second-hover-color">d</a>
+                                                    <a href="#" class="fables-main-text-color fables-store-product-title fables-second-hover-color"></a>
                                                 </h5>
-                                                <p class="card-text fables-fifth-text-color fables-store-product-details mx-3 store-card-text">من الفليبين العمر 25</p>
+                                                <p class="card-text fables-fifth-text-color fables-store-product-details mx-3 store-card-text"> الفلبين </p>
                                                 <p class="fables-product-price fables-second-text-color my-2 mx-3 semi-font">19,000 SAR</p>
                                                 <p class="fables-product-info my-2"><a href="#" class="btn fables-second-border-color fables-second-text-color fables-btn-rouned fables-hover-btn-color font-15">
                                                </span> 
-                                                {{-- <span class="fables-btn-value">حجز</span></a></p> --}}
+                                                <span class="fables-btn-value">حجز</span></a></p>
                                               </div>
                                            </div>
                                          </div>  
@@ -311,7 +311,7 @@
                                                 <p class="fables-product-price fables-second-text-color my-2 mx-3 semi-font">9,999 SAR</p>
                                                 <p class="fables-product-info my-2"><a href="#" class="btn fables-second-border-color fables-second-text-color fables-btn-rouned fables-hover-btn-color font-15">
                                                </span> 
-                                                {{-- <span class="fables-btn-value">حجز</span></a></p> --}}
+                                                <span class="fables-btn-value">حجز</span></a></p>
                                               </div>
                                            </div>
                                          </div> 
@@ -335,7 +335,7 @@
                                                         <p class="fables-product-price fables-second-text-color my-2 mx-3 semi-font"> 7,999 SAR </p>
                                                         <p class="fables-product-info"><a href="#" class="btn fables-second-border-color fables-second-text-color fables-btn-rouned fables-hover-btn-color font-15">
                                                         </span> 
-                                                        {{-- <span class="fables-btn-value">حجز</span></a></p> --}}
+                                                        <span class="fables-btn-value">حجز</span></a></p>
                                                     </div>
                                                    </div>
                                           </div>  
@@ -359,7 +359,7 @@
                                                         <p class="fables-product-price fables-second-text-color my-2 mx-3 semi-font"> 5,999 SAR </p>
                                                         <p class="fables-product-info my-2"><a href="#" class="btn fables-second-border-color fables-second-text-color fables-btn-rouned fables-hover-btn-color font-15">
                                                         </span> 
-                                                        {{-- <span class="fables-btn-value">حجز</span></a></p> --}}
+                                                        <span class="fables-btn-value">حجز</span></a></p>
                                                     </div>
                                                    </div>
                                         </div>    
@@ -383,7 +383,7 @@
                                                         <p class="fables-product-price fables-second-text-color my-2 mx-3 semi-font"> 6,999 SAR </p>
                                                         <p class="fables-product-info my-2"><a href="#" class="btn fables-second-border-color fables-second-text-color fables-btn-rouned fables-hover-btn-color font-15">
                                                         </span> 
-                                                        {{-- <span class="fables-btn-value">حجز</span></a></p> --}}
+                                                        <span class="fables-btn-value">حجز</span></a></p>
                                                     </div>
                                                    </div>
                                         </div>    
@@ -407,7 +407,7 @@
                                                         <p class="fables-product-price fables-second-text-color my-2 mx-3 semi-font"> 5,999 SAR </p>
                                                         <p class="fables-product-info my-2"><a href="#" class="btn fables-second-border-color fables-second-text-color fables-btn-rouned fables-hover-btn-color font-15">
                                                         </span> 
-                                                        {{-- <span class="fables-btn-value">حجز</span></a></p> --}}
+                                                        <span class="fables-btn-value">حجز</span></a></p>
                                                     </div>
                                                    </div>
                                         </div>    
