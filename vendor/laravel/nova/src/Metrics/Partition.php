@@ -3,6 +3,7 @@
 namespace Laravel\Nova\Metrics;
 
 use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Query\Expression;
 use Illuminate\Support\Facades\DB;
 use Laravel\Nova\Util;
 
@@ -111,7 +112,10 @@ abstract class Partition extends Metric
         })->groupBy($groupBy)->get();
 
         return $this->result($results->mapWithKeys(function ($result) use ($grammar, $groupBy) {
-            return $this->formatAggregateResult($result, $grammar->getValue($groupBy));
+            return $this->formatAggregateResult(
+                $result,
+                $groupBy instanceof Expression ? $grammar->getValue($groupBy) : $groupBy
+            );
         })->all());
     }
 

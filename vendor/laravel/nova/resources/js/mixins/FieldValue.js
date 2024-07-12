@@ -1,10 +1,18 @@
 import filled from '../util/filled'
+import isArray from 'lodash/isArray'
 
 export default {
   props: ['field'],
 
   methods: {
     isEqualsToValue(value) {
+      if (isArray(this.field.value) && filled(value)) {
+        return Boolean(
+          this.field.value.includes(value) ||
+            this.field.value.includes(value.toString())
+        )
+      }
+
       return Boolean(
         this.field.value === value ||
           this.field.value?.toString() === value ||
