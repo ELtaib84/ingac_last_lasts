@@ -9,5 +9,10 @@ class ContractTypes extends Model
 {
     use HasFactory;
 
+    public function Contracts()
+    {
+        return $this->hasMany(Contracts::class, 'ContractTypeId');
+    }
+
 
 }

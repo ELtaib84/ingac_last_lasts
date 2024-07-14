@@ -106,4 +106,6 @@ return array(
     'Badinansoft\\LanguageSwitch\\' => array($vendorDir . '/badinansoft/nova-language-switch/src'),
     'Asm89\\Stack\\' => array($vendorDir . '/asm89/stack-cors/src'),
     'App\\' => array($baseDir . '/app'),
+    'Alkoumi\\LaravelArabicNumbers\\' => array($vendorDir . '/alkoumi/laravel-arabic-numbers/src'),
+    'Alexwenzel\\DependencyContainer\\' => array($vendorDir . '/alexwenzel/nova-dependency-container/src'),
 );

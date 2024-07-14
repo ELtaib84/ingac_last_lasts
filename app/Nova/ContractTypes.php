@@ -51,7 +51,7 @@ class ContractTypes extends Resource
      *
      * @var string
      */
-    public static $title = 'id';
+    public static $title = 'Name';
 
     /**
      * The columns that should be searched.

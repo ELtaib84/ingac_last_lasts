@@ -6,6 +6,8 @@
     "license": "MIT",
     "require": {
         "php": "^8.0",
+        "alexwenzel/nova-dependency-container": "^1.12",
+        "alkoumi/laravel-arabic-numbers": "^1.1",
         "badinansoft/nova-language-switch": "^1.2",
         "fruitcake/laravel-cors": "^2.0.5",
         "guzzlehttp/guzzle": "^7.2",
