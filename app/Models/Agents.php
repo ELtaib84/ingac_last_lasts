@@ -17,4 +17,8 @@ class Agents extends Model
         return $this->belongsTo(Nationalities::class , 'NationalityId');
 
     }
+    public function Workers()
+    {
+        return $this->hasMany(Workers::class, 'AgentId');
+    }
 }

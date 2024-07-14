@@ -14,4 +14,8 @@ class VisaTypes extends Model
          return $this->hasMany(Tickets::class);
 
     }
+    public function Contracts()
+    {
+        return $this->hasMany(Contracts::class, 'VisaTypeId');
+    }
 }

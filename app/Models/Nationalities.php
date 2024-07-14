@@ -20,4 +20,8 @@ class Nationalities extends Model
     {
         return $this->hasMany(Contacts::class, 'NationalityId');
     }
+    public function Workers()
+    {
+        return $this->hasMany(Workers::class, 'NationalityId');
+    }
 }

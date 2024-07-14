@@ -7,6 +7,7 @@ use App\Nova\Airports;
 use App\Nova\Cities;
 use App\Nova\Contacts;
 use App\Nova\ContactTypes;
+use App\Nova\Contracts;
 use App\Nova\ContractTypes;
 use App\Nova\Dashboards\Main;
 use App\Nova\Jobs;
@@ -16,6 +17,7 @@ use App\Nova\Tickets;
 use App\Nova\TicketStatus;
 use App\Nova\User;
 use App\Nova\VisaTypes;
+use App\Nova\Workers;
 use App\Nova\WorkerTransTypes;
 use Illuminate\Support\Facades\Gate;
 use Laravel\Nova\Menu\MenuItem;
@@ -46,6 +48,8 @@ class NovaServiceProvider extends NovaApplicationServiceProvider
                 MenuSection::make(Nova::__('ادارة  الاستقدام '), [
                     MenuItem::resource(Contacts::class),
                     MenuItem::resource(Tickets::class),
+                    MenuItem::resource(Workers::class),
+                    MenuItem::resource(Contracts::class),
                 ])->icon('desktop-computer')->collapsable(),
                 MenuSection::make(Nova::__('اداة التاجير  '), [
                     MenuItem::resource(Agents::class),

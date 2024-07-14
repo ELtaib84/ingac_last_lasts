@@ -11,4 +11,8 @@ class Airports extends Model
     protected $fillable = [
         'Name'
     ];
+    public function Contracts()
+    {
+        return $this->hasMany(Contracts::class);
+    }
 }

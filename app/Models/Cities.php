@@ -16,4 +16,10 @@ class Cities extends Model
     {
         return $this->hasMany(Contacts::class, 'CityId');
     }
+    public function Contracts()
+    {
+        return $this->hasMany(Contracts::class, 'CityId');
+    }
+
+
 }

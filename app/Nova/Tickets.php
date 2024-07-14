@@ -2,6 +2,9 @@
 
 namespace App\Nova;
 
+use Alexwenzel\DependencyContainer\DependencyContainer;
+use Alexwenzel\DependencyContainer\HasDependencies;
+use Alexwenzel\DependencyContainer\ActionHasDependencies;
 use Faker\Core\DateTime;
 use Illuminate\Http\Request;
 use Laravel\Nova\Fields\BelongsTo;
@@ -9,6 +12,7 @@ use Laravel\Nova\Fields\Date;
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Text;
 use Laravel\Nova\Http\Requests\NovaRequest;
+use function PHPUnit\Framework\isEmpty;
 
 class Tickets extends Resource
 {
@@ -74,15 +78,24 @@ class Tickets extends Resource
     public function fields(NovaRequest $request)
     {
         return [
-            ID::make()->sortable(),
+            ID::make('رقم الطلب ' ,'id')->sortable()->readonly(),
             Date::make('تاريخ الطلب', 'TicketDate', function () {
                 return now();
             })->readonly(),
-            BelongsTo::make('الحالة', 'TicketStatus', TicketStatus::class)->rules('required')->default('1'),
+            BelongsTo::make('الحالة', 'TicketStatus',TicketStatus::class )->rules('required')->default('1'),
             Text::make('رقم التأشيرة', 'VisaNo'),
             BelongsTo::make('نوع التأشيرة', 'VisaTypes', VisaTypes::class)->default('1'),
-            BelongsTo::make('الجوال / الهوية', 'Contacts', Contacts::class)->rules('required'),
+            BelongsTo::make('الجوال / الهوية', 'Contacts', Contacts::class)->rules('required')->searchable(),
+            Text::make('اسم العميل' , function (){
+                return $this->Contacts->Name;
+            }),
+            Text::make(' رقم الهوية' , function (){
+                return $this->Contacts->IdNumber;
+            }),
 
+            Text::make(' نوع العميل  ' , function (){
+                return $this->Contacts->ContactType->Name;
+            }),
 
         ];
     }

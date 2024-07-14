@@ -112,7 +112,7 @@ class Contacts extends Resource
 
             Select::make('العنوان', 'Address')
                 ->options([
-                    ''
+                    'الرياض' => 'الرياض',
                 ]),
 
 
